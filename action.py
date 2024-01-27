@@ -21,5 +21,10 @@ def main():
 
 
 main()
+# винда
 # python action.py
 # python action.py --check 10
+
+# линукс
+# python3 action.py
+# python3 action.py --check 10

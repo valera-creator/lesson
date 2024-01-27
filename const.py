@@ -14,5 +14,11 @@ def main():
 
 
 main()
+
+# винда
 # python const.py
 # python const.py --check
+
+# линукс
+# python3 const.py
+# python3 const.py --check

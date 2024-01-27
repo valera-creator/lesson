@@ -13,4 +13,9 @@ def main():
 
 
 main()
+
+# винда
 # python metavar.py -h
+
+# линукс
+# python3 metavar.py -h

@@ -18,4 +18,8 @@ def main():
 
 main()
 
+# винда
 # python required.py --test 50
+
+# линукс
+# python3 required.py --test 50

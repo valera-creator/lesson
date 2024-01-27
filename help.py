@@ -17,4 +17,9 @@ def main():
 
 
 main()
+
+# винда
 # python help.py -h
+
+# линукс
+# python3 help.py -h

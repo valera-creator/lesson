@@ -16,5 +16,10 @@ def main():
 
 main()
 
+# винда
 # python choice.py 1
 # python choice.py 5
+
+# линукс
+# python3 choice.py 1
+# python3 choice.py 5

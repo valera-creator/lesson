@@ -19,4 +19,9 @@ def main():
 
 
 main()
+
+# винда
 # python names.py 1 --name x y z
+
+# линукс
+# python3 names.py 1 --name x y z

@@ -38,8 +38,12 @@ def main(args):
 
 print(main(sys.argv[1:]))
 
+# винда
 # python repeat.py --base 3 0 1 10 11
-
 # python repeat.py --base 3 140 1 1010
-
 # python repeat.py
+
+# линукс
+# python3 repeat.py --base 3 0 1 10 11
+# python3 repeat.py --base 3 140 1 1010
+# python3 repeat.py

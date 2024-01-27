@@ -16,4 +16,9 @@ def main():
 
 
 main()
+
+# винда
 # python dest.py --AllaMikhailovna 100 --ArtemKorotkov 100
+
+# линукс
+# python3 dest.py --AllaMikhailovna 100 --ArtemKorotkov 100

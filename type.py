@@ -19,4 +19,9 @@ def main():
 
 
 main()
+
+# винда
 # python type.py --num 1 --file txt.txt
+
+# линукс
+# python3 type.py --num 1 --file txt.txt

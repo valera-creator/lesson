@@ -16,5 +16,12 @@ def main():
 
 
 main()
+
+# винда
 # python default.py
 # python default.py --arg1 1 2 3
+
+# линукс
+# python3 default.py
+# python3 default.py --arg1 1 2 3
+

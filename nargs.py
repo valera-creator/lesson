@@ -21,4 +21,9 @@ def main():
 
 
 main()
+
+# винда
 # python nargs.py
+
+# линукс
+# python3 nargs.py
