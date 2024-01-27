@@ -8,7 +8,7 @@ def main():
     чтобы узнать о скрипте информацию, можно использовать -h или --help
     """
 
-    parser = argparse.ArgumentParser(description='Данный скрипт обучает пользоваться description и help')
+    parser = argparse.ArgumentParser(description='Описание скрипта: обучение пользоваться description и help')
 
     parser.add_argument('one', nargs=1, help='one принимает 1 аргумент')
     parser.add_argument('-n', '--name', nargs=2, help='name принимает 2 аргумента')

@@ -4,7 +4,7 @@ import argparse
 def main():
     """
     type - тип данных, который должен быть в параметре (по умолчанию стоит str)
-    например: int, str, list и даже argparse.FileType('r')
+    например: int, str, list и даже FileType)
     """
     parser = argparse.ArgumentParser()
 
@@ -14,6 +14,7 @@ def main():
     args = parser.parse_args()
     print(args)
     print(f'число: {args.num}')
+
     print(f'данные файла:\n{args.file.read()}')
 
 
