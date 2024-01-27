@@ -15,6 +15,7 @@ def main():
 
     args = parser.parse_args()
     print(args)
+    print(args.name)
 
 
 main()

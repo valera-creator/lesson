@@ -42,4 +42,4 @@ print(main(sys.argv[1:]))
 
 # python repeat.py --base 3 140 1 1010
 
-# python repeat.py.py
+# python repeat.py

@@ -4,7 +4,9 @@ import argparse
 def main():
     """
     default - значение по умолчанию, если параметр не передали
-    Тип данных должен соответствовать типу данных в default
+
+    тип данных должен соответствовать типу данных в default, например:
+    default='ляляля', type=int выкинет ошибку
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--arg1', nargs="*", default=100, type=int)
