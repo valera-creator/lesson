@@ -3,7 +3,7 @@ import argparse
 
 def main():
     """
-    store_const устанавливает значение в аргумент, которое находится в const
+    store_const устанавливает значение в аргумент, которое находится в const, по умолчанию None
     """
 
     parser = argparse.ArgumentParser()
