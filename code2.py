@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description="convert integers to decimal system")
 
-parser.add_argument('integers', metavar='integers', nargs='+', type=str, help='integers to be converted')
+parser.add_argument('integers', nargs='+', type=str, help='integers to be converted')
 parser.add_argument('--base', default=2, type=int, help='default numeric system')
 
 args = parser.parse_args()
