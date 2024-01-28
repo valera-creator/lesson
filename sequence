@@ -6,7 +6,7 @@ cd - переход
 mkdir - создание папки
 mv/move текущая директория куда
 
-запустить shedule.py
+запустить shedule.py, shedule2.py, shedule3.py
 
 запустить файл repeat.py, кто-то будет рассказывать код
 
@@ -20,7 +20,7 @@ mv/move текущая директория куда
 
 запустить metavar.py
 
-запустить type.py
+запустить type.py, type2_with_file.py
 
 запустить dest.py
 

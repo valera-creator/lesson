@@ -3,7 +3,7 @@ import argparse
 
 def main():
     """
-    dest переименовывает название аргумента на более удобное
+    dest переименовывает название аргумента
     """
 
     parser = argparse.ArgumentParser()
@@ -13,6 +13,7 @@ def main():
 
     args = parser.parse_args()
     print(args)
+    print(args.Artem)
 
 
 main()

@@ -14,7 +14,7 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--check', action='store_false')
+    parser.add_argument('--check', action='store')
 
     args = parser.parse_args()
     print(args)

@@ -7,18 +7,16 @@ def main():
     например: int, str, list и даже FileType)
     """
     parser = argparse.ArgumentParser()
-
-    parser.add_argument('--num', type=int)
-
+    parser.add_argument('--file', type=argparse.FileType('r'))
     args = parser.parse_args()
-    print(args)
-    print(f'число: {args.num}')
+
+    print(f'данные файла:\n{args.file.read()}')
 
 
 main()
 
 # винда
-# python type.py --num 1
+# python type2_with_file.py --file txt.txt
 
 # линукс
-# python3 type.py --num 1
+# python3 type2_with_file.py --file txt.txt
