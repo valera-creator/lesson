@@ -3,7 +3,7 @@ import argparse
 
 def main():
     """
-    metavar позволяет изменить названия аргумента при использовании help
+    metavar позволяет изменить отображение аргумента при использовании help
     """
 
     parser = argparse.ArgumentParser()
